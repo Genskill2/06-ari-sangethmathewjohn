@@ -13,8 +13,10 @@ string ari(string text)
     {
         if (isalnum(text[i]))
             chara++;
+        
         if (text[i] == ' ')
             words++;
+        
         if ((text[i] == '.') || (text[i] == '!') || (text[i] == '?'))
             sentence++;
     }
